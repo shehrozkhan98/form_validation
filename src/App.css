@@ -1,0 +1,98 @@
+form{
+  width: 500px;
+  
+  background-color: rgb(90, 189, 189);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type=text] , input[type=tel],input[type=email],input[type=date],input[type=password], input[type=datetime-local], select, textarea {
+  background-color: #e9f1e9;
+  color: rgb(0, 0, 0);
+  padding: 4px 2px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+label{
+  color:aliceblue
+}
+
+.basicInfo label{
+  display: block;
+  padding: 4px 2px;
+}
+
+.firstsection{
+  display: inline-block;
+  justify-content: space-between;
+  padding: 10px;
+  margin:10px;
+  width: 200px;
+  border: 1px solid black;
+}
+.profile  {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  background-color: black;
+  float: right;
+}
+
+.secondsection{
+  width: 90%;
+  border: 1px solid black;
+  margin: 10px;
+}
+.secondsection label{
+  display: block;
+  padding: 5px;
+}
+
+
+.personalInfo{
+ 
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.basicInfo{
+  border: 1px solid black;
+  display: flex;
+}
+
+.info{
+  border: 1px solid black;
+  display: flex;
+}
+
+textarea{
+  width: 95%;
+  margin: 10px 10px 10px 10px;
+}
+
+.credentials {
+  border: 1px solid black;
+  display: flex;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #113f12;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button {
+  height: 40px;
+  margin-left: 10px;
+  width: 92px;
+  border: none;
+  border-radius: 7px;
+  background-color: #488b4d;
+  color: white;
+}
